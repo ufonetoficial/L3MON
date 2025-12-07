@@ -1,0 +1,10 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "CHANGE_THIS_TO_MD5_HASH_OF_YOUR_PASSWORD",
+    "loginToken": "",
+    "logs": [],
+    "ipLog": []
+  },
+  "clients": []
+}

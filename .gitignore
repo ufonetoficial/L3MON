@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Client data (contains sensitive info)
+clientData/*.json
+!clientData/blank
+
+# Build artifacts
+assets/webpublic/build.apk
+assets/webpublic/build.s.apk
+assets/webpublic/L3MON.apk
+app/factory/decompiled/build/
+
+# Database (contains credentials)
+maindb.json
+
+# Backup files
+*.bak
+*.backup
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment files
+.env
+.env.local
+.env.production

