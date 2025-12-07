@@ -1,0 +1,81 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "655c3c96b1ab6fa9076efbcf08d16499",
+    "loginToken": "e6baced4166be1fd979d38ee0f1337f1",
+    "logs": [
+      {
+        "time": "2025-12-07T21:48:54.828Z",
+        "type": "ERROR",
+        "message": "Build Failed - Wrong Java Version Installed. Detected openjdk version \"21.0.8\" 20. Please use Java 1.8.0"
+      },
+      {
+        "time": "2025-12-07T21:54:18.628Z",
+        "type": "ERROR",
+        "message": "Build Failed - Wrong Java Version Installed. Detected openjdk version \"21.0.8\" 20. Please use Java 1.8.0"
+      },
+      {
+        "time": "2025-12-07T21:58:07.053Z",
+        "type": "SUCCESS",
+        "message": "L3MON Server Started Successfully"
+      },
+      {
+        "time": "2025-12-07T21:59:15.824Z",
+        "type": "ERROR",
+        "message": "Build Failed - Build Command Failed - Command failed: java -Xmx1024m -jar \"C:\\Users\\echev\\Downloads\\L3MON\\app\\factory\\apktool.jar\" b \"C:\\Users\\echev\\Downloads\\L3MON\\app\\factory\\decompiled\" -o \"C:\\Users\\echev\\Downloads\\L3MON\\assets\\webpublic\\build.apk\" --use-aapt2\njava.io.FileNotFoundException: C:\\Users\\echev\\Downloads\\L3MON\\app\\factory\\decompiled\\build\\apk\\classes.dex (Acceso denegado)\r\n"
+      },
+      {
+        "time": "2025-12-07T22:00:31.735Z",
+        "type": "SUCCESS",
+        "message": "L3MON Server Started Successfully"
+      },
+      {
+        "time": "2025-12-07T22:00:53.069Z",
+        "type": "ERROR",
+        "message": "Build Failed - Build Command Failed - Command failed: java -Xmx1024m -jar \"C:\\Users\\echev\\Downloads\\L3MON\\app\\factory\\apktool.jar\" b \"C:\\Users\\echev\\Downloads\\L3MON\\app\\factory\\decompiled\" -o \"C:\\Users\\echev\\Downloads\\L3MON\\assets\\webpublic\\build.apk\" --use-aapt2\njava.io.FileNotFoundException: C:\\Users\\echev\\Downloads\\L3MON\\app\\factory\\decompiled\\build\\apk\\classes.dex (Acceso denegado)\r\n"
+      },
+      {
+        "time": "2025-12-07T22:02:05.315Z",
+        "type": "ERROR",
+        "message": "Build Failed - Sign Command Failed - Command failed: java -jar \"C:\\Users\\echev\\Downloads\\L3MON\\app\\factory\\sign.jar\" \"C:\\Users\\echev\\Downloads\\L3MON\\assets\\webpublic\\build.apk\"\nException in thread \"main\" java.lang.NoClassDefFoundError: sun/misc/BASE64Encoder\r\n\tat s.Sign.addDigestsToManifest(Sign.java:108)\r\n\tat s.Sign.sign(Sign.java:454)\r\n\tat s.Sign.main(Sign.java:532)\r\nCaused by: java.lang.ClassNotFoundException: sun.misc.BASE64Encoder\r\n\tat java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)\r\n\tat java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)\r\n\tat java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)\r\n\t... 3 more\r\n"
+      },
+      {
+        "time": "2025-12-07T22:03:38.746Z",
+        "type": "SUCCESS",
+        "message": "L3MON Server Started Successfully"
+      },
+      {
+        "time": "2025-12-07T22:04:03.656Z",
+        "type": "SUCCESS",
+        "message": "Build Succeded!"
+      },
+      {
+        "time": "2025-12-07T22:05:47.073Z",
+        "type": "SUCCESS",
+        "message": "L3MON Server Started Successfully"
+      },
+      {
+        "time": "2025-12-07T22:06:34.375Z",
+        "type": "SUCCESS",
+        "message": "L3MON Server Started Successfully"
+      },
+      {
+        "time": "2025-12-07T22:07:04.166Z",
+        "type": "SUCCESS",
+        "message": "Build Succeded!"
+      },
+      {
+        "time": "2025-12-07T22:10:09.791Z",
+        "type": "SUCCESS",
+        "message": "L3MON Server Started Successfully"
+      },
+      {
+        "time": "2025-12-07T22:17:31.325Z",
+        "type": "SUCCESS",
+        "message": "L3MON Server Started Successfully"
+      }
+    ],
+    "ipLog": []
+  },
+  "clients": []
+}
